@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
+data/raw/MetaMotion
 # C extensions
 *.so
 
@@ -22,6 +22,8 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+tracking-barbell-exercises
+reports
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
