@@ -9,7 +9,7 @@ from sklearn.neighbors import LocalOutlierFactor  # pip install scikit-learn
 # Load data
 # --------------------------------------------------------------
 
-df = pd.read_pickle("data/interim/01_data_processed.pkl")
+df = pd.read_pickle("../../data/interim/01_data_processed.pkl")
 outlier_column = list(df.columns[:6])
 # --------------------------------------------------------------
 # Plotting outliers
@@ -270,4 +270,4 @@ for col in outlier_column:
 # Export new dataframe
 # --------------------------------------------------------------
 
-outlier_removed_df.to_pickle("data/interim/02_outliers_removed_chauvenets.pkl")
+outlier_removed_df.to_pickle("../../data/interim/02_outliers_removed_chauvenets.pkl")
